@@ -4,14 +4,13 @@ JBBluetooth
 JBBluetooth is a small and flexible tool to access bluetooth by CoreBluetooth framework. You can quickly customize one of your own Bluetooth applications just by setting "uuid.plist" file.
 
 LIKE:
-
-  <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-	<plist version="1.0">
-	<array>
-		<dict>	//	a service
-			<key>characteristicList</key>	//	characteristics in service
-			<array>
+	<?xml version="1.0" encoding="UTF-8"?>
+		<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+		<plist version="1.0">
+		<array>
+			<dict>	//	a service
+				<key>characteristicList</key>	//	characteristics in service
+				<array>
 				<dict>
 					<key>characteristicUUIDString</key>	//	characteristic uuid
 					<string>97F57081-8E49-444A-8B79-1E41760DC804</string>
